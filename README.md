@@ -87,4 +87,4 @@ Adobe applications crash on AMD Hackintoshes due to missing intel_fast_memset in
  - [AMD-OSX Community](https://amd-osx.com) for support while making my Hackintosh
 <br>
 
-![Screenshot](blob:https://pasteboard.co/dc5b2bcc-85f4-487e-bfc4-403549307714)
+![Screenshot](https://i.postimg.cc/ry7g5KC5/Screen-Shot-2020-12-10-at-19-39-06.png)
