@@ -1,4 +1,4 @@
-# OpenCore EFI for AMD Ryzen Hackintosh (macOS 10.13 - 11.0)
+# OpenCore EFI for AMD Ryzen Hackintosh (macOS 10.13 - 11.0) RYZEN 2600X B450M VEGA 64
 
 ## Specification
 | **Component** | **Model** |
