@@ -13,16 +13,6 @@
 **macOS version**: 10.14.6 (20B50)  
 **OpenCore version**: 0.6.3 
 
-## Table of content
- - [Compatible macOS versions](#Compatible-macOS-versions)
- - [Issues](#Issues)
- - [How to use](#How-to-use)
- - [Sleep informations](#Sleep-informations)
- - [PAT patch information](#PAT-patch-information)
- - [Adobe applications fix](#Adobe-applications-fix)
- - [Guides](#Guides)
- - [Credits](#Credits)
-
 ## Compatability macOS versions
  - High Sierra (10.13.x)
  - Mojave (10.14.x)
@@ -42,21 +32,28 @@
 
 **You CAN NOT use SMBIOS from this repository, it MUST be unique for every macOS installation**
 
+***NOT FORGET THE NOTE ABOVE***
+
 ## Dual monitor / External monitor / Multi Monitor setup issues
-I have came upon a sudden and a restless problem. I have two monitors LG and Philips. When my computer boots up inside 'Login Menu' first monitor whole screen starts blinking. The second monitor is offline sometimes even he blinks. 
-I have resolved the issue by installing [**RDM**](https://github.com/avibrazil/RDM)  
-Then tinkering with both displays resolution and refresh rate. After two days the problem was over and the solution proved to be easier then i previously thought.
+I have came upon a sudden and a restless problem only when more then one monitor is plugged in. 
+I have two monitors `LG 32"` and `Philips 27"` both `DisplayPort`. 
+When my computer boots up inside `login screen` first monitors screen starts blinking. The second monitor is black but blinking trying to connect. 
+fter some time the second monitor goes offline or like in few casses it sorts itself out and the monitors work. 
+If i unplug and plug back the cables bunch of times i can resolve.
+
+In the issue was resolved by installing [**RDM**](https://github.com/avibrazil/RDM)  
+Then tinkering with both displays resolution and refresh rate the problem was solved and blinking/trying to connect stopped. Maybe he needed a saved configuration for the monitors. I'm not sure anymore. I'm glad if this helped you.
 
 To switch to another patch search for `mtrr_update_action` in `config.plist`. Then set `Enabled` to `true` for patch which you want to use. Remember to set `Enabled` to `false` for second PAT patch.  
 Don't try to use them both at the same time, it won't work.
 
-## Adobe applications fix
+## Adobe problems fix
 Adobe applications crash on AMD Hackintoshes due to missing intel_fast_memset instructions. Follow [**this guide**](https://gist.github.com/mikigal/8e1f804fcd7dbafbded2f236653be7c8) to get it working!  
 
 ## Guides
 
 
-## Credits
+## All rights go to:
 **Software:**
  - [[Bootloader] OpenCore](https://github.com/acidanthera/OpenCorePkg)
  - [[Resources] Picker GUI](https://github.com/acidanthera/OcBinaryData/tree/master/Resources)
