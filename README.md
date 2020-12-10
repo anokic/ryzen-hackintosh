@@ -43,7 +43,9 @@
 **You CAN NOT use SMBIOS from this repository, it MUST be unique for every macOS installation**
 
 ## Dual monitor / External monitor / Multi Monitor setup issues
-I have came upon a sudden and a restless problem. I have two monitors LG and Philips. When my computer boots up inside 'Login Menu' first monitor whole screen starts blinking. The second monitor is offline sometimes even he blinks. I have resolved the issue by installing [**RDM**](https://github.com/avibrazil/RDM) 
+I have came upon a sudden and a restless problem. I have two monitors LG and Philips. When my computer boots up inside 'Login Menu' first monitor whole screen starts blinking. The second monitor is offline sometimes even he blinks. 
+I have resolved the issue by installing [**RDM**](https://github.com/avibrazil/RDM)  
+Then tinkering with both displays resolution and refresh rate. After two days the problem was over and the solution proved to be easier then i previously thought.
 
 To switch to another patch search for `mtrr_update_action` in `config.plist`. Then set `Enabled` to `true` for patch which you want to use. Remember to set `Enabled` to `false` for second PAT patch.  
 Don't try to use them both at the same time, it won't work.
@@ -85,4 +87,4 @@ Adobe applications crash on AMD Hackintoshes due to missing intel_fast_memset in
  - [AMD-OSX Community](https://amd-osx.com) for support while making my Hackintosh
 <br>
 
-![Screenshot](/screenshot.png?raw=true)
+![Screenshot](https://raw.githubusercontent.com/mikigal/ryzen-hackintosh/master/screenshot.png)
