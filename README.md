@@ -19,10 +19,6 @@
  - Catalina (10.15.x)
  - Big Sur (10.16/11.0)
 
-## Cons
- - Partially-working virtualization (only VirtualBox & Parallels Dekstop 13.1.0 or below)
- - Not working 3.5mm Jack microphone (only USB/Bluetooth microphones)
-
 ## Instructions
   1. Make your USB installer with [**this guide**](https://dortania.github.io/OpenCore-Install-Guide/installer-guide/)
   2. Clone the repository and paste "BOOT" and "OC" directories into your's pendrive "EFI" folder
