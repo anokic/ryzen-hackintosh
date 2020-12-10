@@ -32,7 +32,7 @@
 
 **You CAN NOT use SMBIOS from this repository, it MUST be unique for every macOS installation**
 
-***NOT FORGET THE NOTE ABOVE***
+**DONT FORGET THE NOTE ABOVE**
 
 ## Dual monitor / External monitor / Multi Monitor setup issues
 I have came upon a sudden and a restless problem only when more then one monitor is plugged in. 
