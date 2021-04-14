@@ -43,7 +43,7 @@ Then tinkering with both displays resolution and refresh rate the problem was so
 To switch to another patch search for `mtrr_update_action` in `config.plist`. Then set `Enabled` to `true` for patch which you want to use. Remember to set `Enabled` to `false` for second PAT patch.  
 Don't try to use them both at the same time, it won't work.
 
-****USE HAS BEEN RESOLVED BY CHANGING THE MONITOR -- Second monitor didn't like multi monitor setup - Monitor was the problem
+****USE HAS BEEN RESOLVED BY CHANGING THE MONITOR -- Second monitor didn't like multi monitor setup - Monitor was the problem****
 
 ## Adobe problems fix
 Adobe applications crash on AMD Hackintoshes due to missing intel_fast_memset instructions. Follow [**this guide**](https://gist.github.com/mikigal/8e1f804fcd7dbafbded2f236653be7c8) to get it working!  
