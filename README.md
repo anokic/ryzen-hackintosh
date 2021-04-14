@@ -36,7 +36,7 @@ I have two monitors `LG 32"` and `Philips 27"` both `DisplayPort`.
 When my computer boots up inside `login screen` first monitors screen starts blinking. The second monitor is black but blinking trying to connect. 
 fter some time the second monitor goes offline or like in few casses it sorts itself out and the monitors work. 
 If i unplug and plug back the cables bunch of times i can resolve.
-**** USE HAS BEEN RESOLVED BY CHANGING THE MONITOR -- Second monitor didn't like multi monitor setup - Monitor was the problem
+** USE HAS BEEN RESOLVED BY CHANGING THE MONITOR -- Second monitor didn't like multi monitor setup - Monitor was the problem
 
 In the issue was resolved by installing [**RDM**](https://github.com/avibrazil/RDM)  
 Then tinkering with both displays resolution and refresh rate the problem was solved and blinking/trying to connect stopped. Maybe he needed a saved configuration for the monitors. I'm not sure anymore. I'm glad if this helped you.
