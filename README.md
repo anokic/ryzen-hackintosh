@@ -45,9 +45,9 @@ Don't try to use them both at the same time, it won't work.
 
 ****ISSUE WAS RESOLVED BY CHANGING THE MONITOR -- Second monitor didn't like multi monitor setup on MacOS - Monitor was the problem****
 
-## DONT UPDATE THE BIOS Macos Boot Loop
+## Don't Update the BIOS MacOS Boot Loop
 It seems that the new BIOS update for the motherboard B450 Tomahawk Max causes a forever apple logo loop when booting into system.
-I downgraded a few updates. Don't update to the latest update of BIOS.
+I downgraded a few updates BIOS updates and voila it worked. Don't update to the latest update of BIOS causes you to be stuck to Apple Logo when trying to boot.
 
 ## Adobe problems fix
 Adobe applications crash on AMD Hackintoshes due to missing intel_fast_memset instructions. Follow [**this guide**](https://gist.github.com/mikigal/8e1f804fcd7dbafbded2f236653be7c8) to get it working!  
