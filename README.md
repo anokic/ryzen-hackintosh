@@ -4,8 +4,8 @@
 | **Component** | **Model** |
 | ------------- | --------- |
 | CPU | AMD Ryzen 5 2600x @ 3.6GHz |
-| Motherboard | MSI B450M Mortar Max | 
-| RAM | 16GB (2 x 8GB) Kingston DIMM @ 2400Mhz |
+| Motherboard | MSI B450M Tomahawk Max| 
+| RAM | 32GB Kingston DIMM @ 2400Mhz |
 | Audio Chipset | ALC892 |
 | GPU | MSI RX Vega 64 |
 | OS Disk (NVMe) | Kingston A400 480GB |
