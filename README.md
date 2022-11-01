@@ -6,7 +6,7 @@
 | CPU | AMD Ryzen 5 2600x @ 3.6GHz |
 | Motherboard | MSI B450M Mortar Max | 
 | RAM | 16GB (2 x 8GB) Kingston DIMM @ 2400Mhz |
-| Audio Chipset | ALC-887 |
+| Audio Chipset | ALC892 |
 | GPU | MSI RX Vega 64 |
 | OS Disk (NVMe) | Kingston A400 480GB |
 
@@ -48,6 +48,9 @@ Don't try to use them both at the same time, it won't work.
 ## Don't Update the BIOS MacOS Boot Loop
 It seems that the new BIOS update for the motherboard B450 Tomahawk Max causes a forever apple logo loop when booting into system.
 I downgraded a few updates BIOS updates and voila it worked. Don't update to the latest update of BIOS causes you to be stuck to Apple Logo when trying to boot.
+
+## Audio Fix
+I had to change the boot argument from alcid=11 to alcid=1. You can find all the information how to fix it here https://dortania.github.io/OpenCore-Post-Install/universal/audio.html#making-layout-id-more-permanent
 
 ## Adobe problems fix
 Adobe applications crash on AMD Hackintoshes due to missing intel_fast_memset instructions. Follow [**this guide**](https://gist.github.com/mikigal/8e1f804fcd7dbafbded2f236653be7c8) to get it working!  
