@@ -43,7 +43,7 @@ Then tinkering with both displays resolution and refresh rate the problem was so
 To switch to another patch search for `mtrr_update_action` in `config.plist`. Then set `Enabled` to `true` for patch which you want to use. Remember to set `Enabled` to `false` for second PAT patch.  
 Don't try to use them both at the same time, it won't work.
 
-****ISSUE WAS RESOLVED BY CHANGING THE MONITOR -- Second monitor didn't like multi monitor setup on MacOS - Issue workaround only if you have the issue from above****
+****ISSUE WAS RESOLVED BY CHANGING THE MONITOR -- Second monitor didn't like multi monitor setup on MacOS - Issue workaround only if you have the problem from above****
 
 ## Don't Update the BIOS MacOS Boot Loop
 It seems that the new BIOS update for the motherboard B450 Tomahawk Max causes a forever apple logo loop when booting into system.
