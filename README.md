@@ -4,7 +4,7 @@
 | **Component** | **Model** |
 | ------------- | --------- |
 | CPU | AMD Ryzen 5 2600x @ 3.6GHz |
-| Motherboard | MSI B450M Tomahawk Max| 
+| Motherboard | MSI B450 Tomahawk Max| 
 | RAM | 32GB Kingston DIMM @ 2400Mhz |
 | Audio Chipset | ALC892 |
 | GPU | MSI RX Vega 64 |
