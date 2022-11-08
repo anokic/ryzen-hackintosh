@@ -9,6 +9,7 @@
 | Audio Chipset | ALC892 |
 | GPU | MSI RX Vega 64 |
 | OS Disk (NVMe) | Kingston A400 480GB |
+| 2x Monitor | 27' | 32' |
 
 **macOS version**: 10.14.6 (20B50)  
 **OpenCore version**: 0.6.3 
