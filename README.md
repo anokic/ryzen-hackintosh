@@ -55,6 +55,9 @@ I had to change the boot argument from alcid=11 to alcid=1. You can find all the
 ## Adobe problems fix
 Adobe applications crash on AMD Hackintoshes due to missing intel_fast_memset instructions. Follow [**this guide**](https://gist.github.com/mikigal/8e1f804fcd7dbafbded2f236653be7c8) to get it working!  
 
+More answers and fixes on link below:
+https://gist.github.com/fcoury/5863a4a3ae484b2ad74f6390d48e629b
+
 ## Guides
 
 
